@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  background-color: rgb(121, 153, 121);
 }
 
 .navbar {
@@ -33,4 +34,138 @@ body {
 .nav-links a:hover {
   color: rgb(175, 228, 175);
   border-bottom: solid rgb(175, 228, 175) 3px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  margin-top: 5%;
+  padding: 0;
+}
+
+/* Card wrapper */
+.profile-card {
+  display: flex;
+  background: #c3bebe;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 90%;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Image styling */
+.profile-img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Right-side text block */
+.profile-text {
+  flex: 1;
+}
+
+.profile-name {
+  margin: 0.2rem 0;
+  font-size: 1.8rem;
+}
+
+.profile-title {
+  margin: 0.2rem 0;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.profile-bio {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Social links section */
+.profile-socials {
+  margin-top: 1.5rem;
+}
+
+.profile-socials a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: bold;
+}
+
+.profile-socials a:hover {
+  text-decoration: underline;
+}
+
+#pin-icon {
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: rgb(121, 153, 121);
+}
+
+.footer .social {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer .social a img {
+  font-size: 24px;
+  border: 2px solid rgb(175, 228, 175);
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  box-shadow: inset 0 0 10px rgb(175, 228, 175), 0 0 10px rgb(175, 228, 175);
+  transition: 0.3s ease;
+  padding: 1px;
+}
+
+.footer .social a img:hover {
+  transform: scale(1.2) translateY(-10px);
+  color: rgb(175, 228, 175);
+  border: 2px solid rgb(175, 228, 175);
+}
+
+.list {
+  margin-top: 0;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.list li a {
+  color: rgb(68, 103, 68);
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+
+.list li a:hover {
+  border-bottom: 3px solid rgb(175, 228, 175);
+}
+
+.list li {
+  display: inline-block;
+  padding: 0 15px;
 }

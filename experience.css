@@ -1,5 +1,9 @@
 body {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(121, 153, 121);
+  color: #333;
 }
 
 .navbar {
@@ -33,4 +37,143 @@ body {
 .nav-links a:hover {
   color: rgb(175, 228, 175);
   border-bottom: solid rgb(175, 228, 175) 3px;
+}
+
+.experience-container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  padding-bottom: 60px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.education-section {
+  margin-bottom: 2rem;
+}
+
+.section-heading {
+  font-size: 1.6rem;
+  color: #333;
+  border-bottom: 2px solid rgb(121, 153, 121);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.education-item {
+  /* background: rgb(168, 200, 168); */
+  /* background: rgb(153, 177, 153); */
+  background: #c3bebe;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.school-name {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.degree-info {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #464646;
+}
+
+.school-description {
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
+
+.experience-item {
+  /* background: rgb(153, 177, 153); */
+  background: #c3bebe;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.job-title {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.company-name {
+  margin: 0.3rem 0 1rem 0;
+  font-size: 1rem;
+  color: #464646;
+  font-weight: normal;
+}
+
+.job-description {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: rgb(121, 153, 121);
+}
+
+.footer .social {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer .social a img {
+  font-size: 24px;
+  border: 2px solid rgb(175, 228, 175);
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  box-shadow: inset 0 0 10px rgb(175, 228, 175), 0 0 10px rgb(175, 228, 175);
+  transition: 0.3s ease;
+  padding: 1px;
+}
+
+.footer .social a img:hover {
+  transform: scale(1.2) translateY(-10px);
+  color: rgb(175, 228, 175);
+  border: 2px solid rgb(175, 228, 175);
+}
+
+.list {
+  margin-top: 0;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.list li a {
+  color: rgb(68, 103, 68);
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+
+.list li a:hover {
+  border-bottom: 3px solid rgb(175, 228, 175);
+}
+
+.list li {
+  display: inline-block;
+  padding: 0 15px;
 }
