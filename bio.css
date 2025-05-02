@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* background-color: rgb(100, 150, 100); */
+  background-color: rgb(121, 153, 121);
+}
+
+.name-logo {
+  color: rgb(68, 103, 68);
+  border-bottom: dotted rgb(175, 228, 175) 4px;
+  margin-left: 8px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(68, 103, 68);
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: rgb(175, 228, 175);
+  border-bottom: solid rgb(175, 228, 175) 3px;
+}
